@@ -4,8 +4,9 @@ This repository provides the beta version code for ["Automatic stenosis recognit
 ).
 
 
-Abstract
-** Background and objective**: Coronary artery disease is a leading cause of death and is mostly caused by atherosclerotic narrowing of the coronary artery lumen. Coronary angiography is the standard method to estimate the severity of coronary artery stenosis, but is frequently limited by intra- and inter-observer variations. We propose a deep-learning algorithm that automatically recognizes stenosis in coronary angiographic images.
+**Abstract**
+
+**Background and objective**: Coronary artery disease is a leading cause of death and is mostly caused by atherosclerotic narrowing of the coronary artery lumen. Coronary angiography is the standard method to estimate the severity of coronary artery stenosis, but is frequently limited by intra- and inter-observer variations. We propose a deep-learning algorithm that automatically recognizes stenosis in coronary angiographic images.
 
 **Methods**: The proposed method consists of key frame detection, deep learning model training for classification of stenosis on each key frame, and visualization of the possible location of the stenosis. Firstly, we propose an algorithm that automatically extracts key frames essential for diagnosis from 452 right coronary artery angiography movie clips. Our deep learning model is then trained with image-level annotations to classify the over 50 % narrowed areas. To make the model focus on the salient features, we applied a self-attention mechanism. The stenotic locations were visualized using the activated area of feature maps with gradient-weighted class activation mapping.
 
