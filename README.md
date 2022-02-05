@@ -6,7 +6,7 @@ This repository provides the beta version code for ["Automatic stenosis recognit
 ## Contributions
 1. ML-based Clinical Decision Support System  
 2. Automatic Key frame Extraction Technique  
-3. 
+3. Novel Model (Inception-v3 with Covoulutional Block Attention Module)
 
 ## **Abstract**
 
