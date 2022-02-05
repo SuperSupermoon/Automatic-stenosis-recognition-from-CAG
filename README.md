@@ -4,21 +4,17 @@ This repository provides the beta version code for ["Automatic stenosis recognit
 ).
 
 
-
 Abstract
+** Background and objective**: Coronary artery disease is a leading cause of death and is mostly caused by atherosclerotic narrowing of the coronary artery lumen. Coronary angiography is the standard method to estimate the severity of coronary artery stenosis, but is frequently limited by intra- and inter-observer variations. We propose a deep-learning algorithm that automatically recognizes stenosis in coronary angiographic images.
 
- Background and objective: Coronary artery disease is a leading cause of death and is mostly caused by atherosclerotic narrowing of the coronary artery lumen. Coronary angiography is the standard method to estimate the severity of coronary artery stenosis, but is frequently limited by intra- and inter-observer variations. We propose a deep-learning algorithm that automatically recognizes stenosis in coronary angiographic images.
+**Methods**: The proposed method consists of key frame detection, deep learning model training for classification of stenosis on each key frame, and visualization of the possible location of the stenosis. Firstly, we propose an algorithm that automatically extracts key frames essential for diagnosis from 452 right coronary artery angiography movie clips. Our deep learning model is then trained with image-level annotations to classify the over 50 % narrowed areas. To make the model focus on the salient features, we applied a self-attention mechanism. The stenotic locations were visualized using the activated area of feature maps with gradient-weighted class activation mapping.
 
-Methods: The proposed method consists of key frame detection, deep learning model training for classification of stenosis on each key frame, and visualization of the possible location of the stenosis. Firstly, we propose an algorithm that automatically extracts key frames essential for diagnosis from 452 right coronary artery angiography movie clips. Our deep learning model is then trained with image-level annotations to classify the over 50 % narrowed areas. To make the model focus on the salient features, we applied a self-attention mechanism. The stenotic locations were visualized using the activated area of feature maps with gradient-weighted class activation mapping.
+**Results**: The automatically detected key frame was very close to the manually selected key frame (average distance 1.70 ± 0.12 frame per clip). The model was trained with key frames on internal datasets, and validated with internal and external datasets. Our training method achieved high frame-wise area under the curve of 0.971, frame-wise accuracy of 0.934, and clip-wise accuracy of 0.965 in the average values of cross-validation evaluations. The external validation results showed high performances with the mean frame-wise area under the curve of (0.925 and 0.956) in the single and ensemble model, respectively. Heat map visualization shows the location for different types of stenosis in both internal and external data sets. With the self-attention mechanism, the stenosis could be localized precisely and helps to accurately classify stenosis by type of stenosis.
 
-Results: The automatically detected key frame was very close to the manually selected key frame (average distance 1.70 ± 0.12 frame per clip). The model was trained with key frames on internal datasets, and validated with internal and external datasets. Our training method achieved high frame-wise area under the curve of 0.971, frame-wise accuracy of 0.934, and clip-wise accuracy of 0.965 in the average values of cross-validation evaluations. The external validation results showed high performances with the mean frame-wise area under the curve of (0.925 and 0.956) in the single and ensemble model, respectively. Heat map visualization shows the location for different types of stenosis in both internal and external data sets. With the self-attention mechanism, the stenosis could be localized precisely and helps to accurately classify stenosis by type of stenosis.
-
-Conclusions: Our automated classification algorithm could recognize and localize coronary artery stenosis highly accurately. Our approach might be the basis of screening and assistant tool for interpretation of coronary angiography.
-
+**Conclusions**: Our automated classification algorithm could recognize and localize coronary artery stenosis highly accurately. Our approach might be the basis of screening and assistant tool for interpretation of coronary angiography.
 
 
-Keywords
-
+**Keywords**
 Coronary angiography; Coronary artery stenosis; Deep learning; Stenosis recognition; Automated screening
 
 
