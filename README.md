@@ -3,6 +3,10 @@
 This repository provides the beta version code for ["Automatic stenosis recognition from coronary angiography(CAG)"](https://doi.org/10.1016/j.cmpb.2020.105819 
 ).
 
+## Contributions
+1. ML-based Clinical Decision Support System  
+2. Automatic Key frame Extraction Technique  
+3. 
 
 ## **Abstract**
 
@@ -14,9 +18,6 @@ This repository provides the beta version code for ["Automatic stenosis recognit
 
 **Conclusions**: Our automated classification algorithm could recognize and localize coronary artery stenosis highly accurately. Our approach might be the basis of screening and assistant tool for interpretation of coronary angiography.
 
-
-**Keywords**
-Coronary angiography; Coronary artery stenosis; Deep learning; Stenosis recognition; Automated screening
 
 
 
