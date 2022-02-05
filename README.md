@@ -1,6 +1,6 @@
 # Automatic stenosis recognition from coronary angiography using convolutional neural networks (CMPB 2020 published.)
 
-This repository provides the beta version code for ["Automatic stenosis recognition from coronary angiography(CAG)"](https://doi.org/10.1016/j.cmpb.2020.105819 
+This repository provides the simple version code for ["Automatic stenosis recognition from coronary angiography(CAG)"](https://doi.org/10.1016/j.cmpb.2020.105819 
 ).
 
 ## Contributions
