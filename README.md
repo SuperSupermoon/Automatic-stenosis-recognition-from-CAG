@@ -4,7 +4,7 @@ This repository provides the beta version code for ["Automatic stenosis recognit
 ).
 
 
-**Abstract**
+## **Abstract**
 
 **Background and objective**: Coronary artery disease is a leading cause of death and is mostly caused by atherosclerotic narrowing of the coronary artery lumen. Coronary angiography is the standard method to estimate the severity of coronary artery stenosis, but is frequently limited by intra- and inter-observer variations. We propose a deep-learning algorithm that automatically recognizes stenosis in coronary angiographic images.
 
